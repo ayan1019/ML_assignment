@@ -4,7 +4,7 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.so
-*.log
+# *.log
 
 # ======================================
 # Virtual Environment
@@ -22,22 +22,6 @@ ENV/
 # System files
 .DS_Store
 Thumbs.db
-
-# ======================================
-# Output folder (include folder, exclude large files)
-!output/
-output/*.wav
-output/*.mp4
-output/*.srt
-output/*.pt
-output/*.npy
-output/*.json
-output/*.csv
-output/*.zip
-
-# Keep transcript & demo files
-!output/*.txt
-!output/README.md
 
 # ======================================
 # Checkpoints, Models & Cache

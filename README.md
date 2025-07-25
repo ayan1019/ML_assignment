@@ -64,7 +64,8 @@ brew install ffmpeg
 ### 🚀 Running the API
 #### Start the FastAPI server
 ```bash
-uvicorn app.main:app --reload
+uvicorn api.main:app --reload
+
 ```
 
 ### Available Endpoints
