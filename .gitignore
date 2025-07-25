@@ -1,0 +1,74 @@
+# ======================================
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.log
+
+# ======================================
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# ======================================
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# ======================================
+# System files
+.DS_Store
+Thumbs.db
+
+# ======================================
+# Output folder (include folder, exclude large files)
+!output/
+output/*.wav
+output/*.mp4
+output/*.srt
+output/*.pt
+output/*.npy
+output/*.json
+output/*.csv
+output/*.zip
+
+# Keep transcript & demo files
+!output/*.txt
+!output/README.md
+
+# ======================================
+# Checkpoints, Models & Cache
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.h5
+*.tflite
+*.npz
+tts_models/
+**/tts_models/
+tts_cache/
+
+# HuggingFace cache
+~/.cache/huggingface/
+~/.local/share/tts/
+
+# ======================================
+# Misc
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.bak
+
+# FastAPI auto reload artifacts
+*.reload
+
+# My custom config and temp files
+*.env
+.env
+secrets.yaml
+config.yaml

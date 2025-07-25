@@ -1,0 +1,6 @@
+TTS==0.22.0
+torch>=2.1
+torchaudio
+numpy==1.22.0
+scikit-learn>=1.3.0
+soundfile
